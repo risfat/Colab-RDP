@@ -3,7 +3,7 @@ printf "Script Written By Risfat" >&2
 {
 sudo useradd -m RISFAT
 sudo adduser RISFAT sudo
-echo 'RISFAT:111555' | sudo chpasswd
+echo 'RISFAT:toor' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo apt-get update
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
@@ -28,4 +28,4 @@ printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Of Debia
 read -p "Paste Here: " CRP
 su - RISFAT -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/ \n'
-printf 'Your SUDO Pasword Is 111555 \n'
+printf 'Your SUDO Pasword Is toor \n'
