@@ -1,0 +1,2 @@
+bin/ethminer -P stratum2+tcp://39Sgdv2XkVmEq9U5TfSQ2KdewYmoPh3czS.Colab1@daggerhashimoto.usa.nicehash.com:3353
+
