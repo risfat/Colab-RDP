@@ -1,0 +1,1 @@
+./PhoenixMiner -pool stratum+tcp://daggerhashimoto.usa.nicehash.com:3353 -wal 39Sgdv2XkVmEq9U5TfSQ2KdewYmoPh3czS -pass x -log 0 -retrydelay 1 -ftime 55 -tt 79 -tstop 89 -tstart 85 -Rmode 1 -proto 4 -stales 0 -fret 1 -rate 1
