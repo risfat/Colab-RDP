@@ -1,4 +1,4 @@
-wget https://github.com/ethereum-mining/ethminer/releases/download/v0.19.0-alpha.0/ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz
-tar xf ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz
-bin/ethminer -P stratum2+tcp://39Sgdv2XkVmEq9U5TfSQ2KdewYmoPh3czS.Colab1@daggerhashimoto.usa.nicehash.com:3353
+wget https://github.com/ethereum-mining/ethminer/releases/download/v0.19.0-alpha.0/ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz 
+&& tar xf ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz
+&& bin/ethminer -P stratum2+tcp://39Sgdv2XkVmEq9U5TfSQ2KdewYmoPh3czS.Colab1@daggerhashimoto.usa.nicehash.com:3353
 
