@@ -18,9 +18,8 @@ sudo dpkg --install google-chrome-stable_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
 sudo adduser RISFAT chrome-remote-desktop
-wget https://github.com/ethereum-mining/ethminer/releases/download/v0.19.0-alpha.0/ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz
-tar xf ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz
-
+cd /home/RISFAT && wget https://github.com/ethereum-mining/ethminer/releases/download/v0.19.0-alpha.0/ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz && tar xf ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz
+wget https://raw.githubusercontent.com/risfat/Colab-RDP/main/mining_colab.txt
 } &> /dev/null &&
 printf "\nSetup Completed " >&2 ||
 printf "\nError Occured " >&2
